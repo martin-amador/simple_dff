@@ -45,7 +45,7 @@ def test_simple_dff_hidden_runner():
 
    proj_path = Path(__file__).resolve().parent.parent
 
-   sources = [proj_path / "golden/dff.sv"]
+   sources = [proj_path / "sources/dff.sv"]
 
    runner = get_runner(sim)
    runner.build(
